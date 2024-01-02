@@ -3,7 +3,7 @@ import { UserContextProvider } from "./context/UserContext";
 import Routes from "./routes/Routes";
 
 function App() {
-  axios.defaults.baseURL = "http://localhost:4000";
+  axios.defaults.baseURL = "https://swift-talk-backend.onrender.com";
   axios.defaults.withCredentials = true;
 
   return (
