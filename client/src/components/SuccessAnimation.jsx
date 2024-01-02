@@ -1,4 +1,4 @@
-import "../styles/SuccessAnimation.css";
+import "../styles/successAnimation.css";
 
 const SuccessAnimation = () => {
   return (
