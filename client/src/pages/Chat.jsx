@@ -23,7 +23,7 @@ const Chat = () => {
   }, [selectedUserId]);
 
   const connectToWs = () => {
-    const ws = new WebSocket("https://swift-talk-backend.onrender.com");
+    const ws = new WebSocket("ws://swift-talk-backend.onrender.com");
     setWs(ws);
     ws.addEventListener("message", handleMessage);
     ws.addEventListener("close", () => {
