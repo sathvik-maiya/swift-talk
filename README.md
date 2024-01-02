@@ -33,7 +33,7 @@ Before running the SwiftTalk application, make sure you have the following depen
 
 - Node.js
 - Nodemon
-- Yarn
+- npm
 
 To set up the SwiftTalk application, follow these steps:
 
@@ -47,11 +47,11 @@ CLIENT_URL="http://localhost:5173"
 
 Replace `<your-mongodb-connection-string>` with your actual MongoDB connection string. Generate a random string for `JWT_SECRET`.
 
-4. Install server dependencies: `yarn`
+4. Install server dependencies: `npm`
 5. Start the server: `nodemon index.js`
 6. Open a new terminal and navigate to the client folder: `cd client`
-7. Install client dependencies: `yarn`
-8. Start the client: `yarn dev`
+7. Install client dependencies: `npm`
+8. Start the client: `npm dev`
 
 The SwiftTalk application should now be up and running on your local machine.
 
